@@ -3,6 +3,8 @@ body {
     font-family: 'Inconsolata', ;
     color: $iron;
     background-color: $dorian;
+    direction: rtl;
+    text-align: right;
 }
 
 a {
