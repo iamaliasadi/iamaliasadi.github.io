@@ -3,14 +3,14 @@ layout: default
 ---
 {% include category/title.html %}
 
-<ul class="list-posts">
+<ul class="list-posts" style="direction: rtl;">
     {% assign empty_category = true %}
     {% for post in site.posts %}
         {% if post.categories contains page.category %}
             <li class="post-teaser">
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <span class="post-teaser__title">{{ post.title }}</span>
-                    <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+<!--                    <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>-->
                 </a>
             </li>
             {% assign empty_category = false %}
