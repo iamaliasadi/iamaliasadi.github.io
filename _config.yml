@@ -1,5 +1,5 @@
 # Site settings
-title: ali asadi
+title: علی اسدی
 description: >
   for better.
 
@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://iamaliasadi.ir" # the base hostname & protocol for your site
 
 author:
-  fullname: ali asadi
+  fullname: علی اسدی
   github: iamliasadi
   twitter: iamaliasadi
   # disqus: your_disqus_forum_shortname
